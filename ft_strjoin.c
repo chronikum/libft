@@ -30,6 +30,5 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_memcpy(&d[ft_strlen((char *) s1)], s2, ft_strlen((char *) s2));
 	ft_memcpy(&d[ft_strlen((char *) s1)], s2, ft_strlen((char *) s2));
 	ft_memcpy(&d[size - 1], "\0", 1);
-	free((char *)s1);
 	return (d);
 }
